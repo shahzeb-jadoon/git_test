@@ -14,8 +14,14 @@ let num2 = Number(prompt("What number do you want to multiply the first number w
 
 console.log(multiply(num1, num2));
 
-function capitalize(string) {
-    (typeof string === 'string' || myVar instanceof String) ?
-    toString(string)[0].toUpperCase() + toString(string).slice(1).toLowerCase() :
-    'Please enter text in here';
+function capitalize(text) {
+    if (typeof text === 'string' || text instanceof String) {
+        return (text)[0].toUpperCase() + (text).slice(1).toLowerCase();
+    } else {
+        alert('Please enter text!');
+    }
 }
+
+let text = prompt("What text do you want capitalized?");
+
+console.log(capitalize(text));
