@@ -2,8 +2,14 @@ function add7(number) {
     return number + 7;
 }
 
-console.log(add7(Number(prompt("What number do you want to add 7 to?", 0))));
+let num1 = Number(prompt("What number do you want to add 7 to?", 0))
+
+console.log(add7(num1));
 
 function multiply(num1, num2) {
     return num1 * num2;
 }
+
+let num2 = Number(prompt("What number do you want to multiply the first number with?", 0))
+
+console.log(multiply(num1, num2));
