@@ -30,4 +30,4 @@ function lastLetter (text) {
     return text.slice(-1);
 }
 
-console.log(`The last letter of ${text} is ` + lastLetter(text));
+console.log(`The last letter of ${text} is `, lastLetter(text));
