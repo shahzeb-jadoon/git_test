@@ -13,3 +13,7 @@ function multiply(num1, num2) {
 let num2 = Number(prompt("What number do you want to multiply the first number with?", 0))
 
 console.log(multiply(num1, num2));
+
+function capitalize(string) {
+    return toString(string)[0].toUpperCase() + toString(string).slice(1).toLowerCase()
+}
