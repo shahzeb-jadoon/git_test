@@ -15,5 +15,7 @@ let num2 = Number(prompt("What number do you want to multiply the first number w
 console.log(multiply(num1, num2));
 
 function capitalize(string) {
-    return toString(string)[0].toUpperCase() + toString(string).slice(1).toLowerCase()
+    (typeof string === 'string' || myVar instanceof String) ?
+    toString(string)[0].toUpperCase() + toString(string).slice(1).toLowerCase() :
+    'Please enter text in here';
 }
