@@ -25,3 +25,7 @@ function capitalize(text) {
 let text = prompt("What text do you want capitalized?");
 
 console.log(capitalize(text));
+
+function lastLetter (text) {
+    return text.charAt(-1);
+}
