@@ -3,7 +3,9 @@
 // if the number is only divisible by 5, or simply prints the number if none of those
 // statements apply.
 
-function fizzBuzz(integer) {
+function fizzBuzz() {
+    let integer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
+    
     for (let i = 1; i <= integer; i++) { // Loop from 1 to provided number
         if (i % 3 === 0 && i % 5 === 0) { // Check if divisible by 3 and 5
             console.log("FizzBuzz");
