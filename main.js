@@ -1,3 +1,5 @@
+// Practicing writing functions in JavaScript
+
 function add7(number) { // Add 7 to the provided number
     return number + 7;
 }
