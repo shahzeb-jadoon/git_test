@@ -1,4 +1,5 @@
-// Practicing writing functions in JavaScript
+// Practicing writing functions in JavaScript for The Odin Project
+// in order to learn front-end development
 
 function add7(number) { // Add 7 to the provided number
     return number + 7;
