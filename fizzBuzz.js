@@ -4,7 +4,7 @@
 // statements apply.
 
 function fizzBuzz() {
-    let integer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
+    let integer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: ")); //Receive input from user
     
     for (let i = 1; i <= integer; i++) { // Loop from 1 to provided number
         if (i % 3 === 0 && i % 5 === 0) { // Check if divisible by 3 and 5
